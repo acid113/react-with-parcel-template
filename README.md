@@ -1,6 +1,6 @@
 # react-with-parcel-template
 
-Empty project.
+This is a React with Parcel bundler template project.
 
 ## Building and running on localhost
 
