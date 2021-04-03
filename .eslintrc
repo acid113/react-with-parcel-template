@@ -13,16 +13,10 @@
     }
   },
   "plugins": ["@typescript-eslint"],
-  // "extends": [
-  //   "eslint:recommended",
-  //   "plugin:@typescript-eslint/recommended",
-  //   "plugin:prettier/recommended"
-  // ],
   "extends": [
     "eslint:recommended",
     "plugin:react/recommended",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:prettier/recommended"
+    "plugin:@typescript-eslint/recommended"
   ],
   "ignorePatterns": ["/node_modules/", "/dist/"],
   "rules": {
