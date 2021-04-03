@@ -1,22 +1,17 @@
-
-import * as React from 'react';
+import * as React from "react";
 
 interface Props {
-   name:
-    string
+  name: string;
 }
 
-class App extends React.Component<Props> {
-  render() {
-    const { name } = this.props;
-    return (
-      <>
-        <h1>
-          Hello {name}
-        </h1>
-      </>
-    );
-  }
-}
+const App = (props: Props): React.ReactElement => {
+  const { name } = props;
+
+  return (
+    <>
+      <h1>Hello {name}</h1>
+    </>
+  );
+};
 
 export default App;
